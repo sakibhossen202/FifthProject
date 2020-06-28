@@ -1,0 +1,279 @@
+*{margin:0 ;padding:0}
+body{
+	background-color:#E0EFE6;
+	margin:20px auto;
+}
+blockquote{
+	background: #f1b6f5;
+    margin-left: 15px;
+	padding:10px;
+    padding-left: 20px;
+    border-left: 2px solid #73826e;
+	margin-bottom:20px;
+}
+.main-wrapper{
+	width:100%;
+}
+
+.header_bg{
+	background-color:#4D8CF4;
+	border-bottom:5px solid #98ab33;
+	border-top:5px solid #98AB33;
+}
+#header{
+	background-color:#4D8CF4;
+	color:#FFFF00;
+	padding:15px;
+	font-family:georgia;
+	
+	border-right:1px solid #98AB33;
+	border-left:2px solid #98AB33;
+	
+}
+#header p{
+	color:blue;
+}
+.nav_bg{
+	background:#fff;
+	border-bottom:5px solid #98ab33;
+}
+#nav{
+	background-color:#fff;
+	height:38px;
+	border-left:1px solid #98ab33;
+	border-right:1px solid #98ab33;
+	
+}
+
+#nav ul{
+	background-color:#fff;
+	list-style-type:none;
+	z-index:999;
+}
+#nav ul li{
+	float:left;
+	border-right:2px solid #98AB33;
+	font-family:arial;
+}
+#nav ul li:last-child{
+	border-right:none;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#295396;
+	display:block;
+	padding:10px 20px;
+	-moz-transition:all 0.2s ease;
+	-webkit-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+#nav ul li a:hover{
+	color:#2B579A;
+	background-color:#98AB33;
+	
+}
+#nav ul li{
+	
+	position:relative;
+	
+}
+#nav ul li ul {
+    position: absolute;
+    left: -999999px;
+    border-top: 1px solid #98AB33;
+}
+
+#nav ul li:hover ul{
+	left:0;
+	background-color:#fff;
+	
+}
+
+#nav ul li ul li{
+	float:none;
+	border-right:none;
+	border-bottom:1px solid #98ab33;
+	width:200px;
+	position:relative;
+}
+#nav ul li ul li ul{
+	position:absolute;
+	top:-99999px;
+}
+#nav ul li ul li:hover ul{
+	top:-1px;
+	left:200px;
+}
+#nav ul li ul li ul li{
+	border-left:1px solid #98ab33;
+}
+#nav ul li ul li ul li:first-child{
+	border-top:none;
+}
+
+#nav ul li ul li:first-child{
+	border-top:1px solid #98ab33;
+}
+#nav ul li ul li:last-child{
+	border-bottom:none;
+}
+#slider_wrapper{
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	border-bottom:2px solid #000;
+}
+.slider_bg{
+	background:#222222;
+}
+.content_bg{
+	
+	background:#fff;
+}
+#content_wrapper{
+	background-color:#fff;
+	border-left:1px solid #000;
+	border-right:1px solid #000;
+	padding:10px;
+	overflow:hidden;
+}
+#content{
+	width:620px;
+	margin-right:20px;
+	float:left;
+	
+}
+#content h2{
+	color:#5a7ad4;
+	font-family:arial;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+#content h3{
+	color:#aba235;
+	font-family:arial;
+	margin-top:10px;
+	margin-bottom:5px;
+	font-size:20px;
+}
+#content p{
+	margin:15px 0px;
+	font-size:15px;
+}
+#content img{
+	width:450px;
+	
+}
+#content figure{
+	width:450px;
+	padding:10px;
+	background:#72aad2;
+	margin:0 auto;
+	display:block;
+	
+}
+#content figcaption{
+	text-align:center;
+	color:#20732e;
+	font-family:Tahoma;
+	font-weight:bold;
+	
+}
+#sidebar{
+	width:297px;
+	float:left;
+	
+	
+	
+}
+#sidebar ul{
+	
+}
+#sidebar ul li{
+	
+	border-bottom: 1px solid #742222;
+	margin-bottom:3px;
+}
+#sidebar ul li:last-child{
+	
+	border-bottom:none;
+}
+
+#sidebar ul li a{
+	text-decoration:none;
+	color:#0b4e49;
+	padding:3px;
+	display:block;
+	
+}
+#sidebar h2{
+	color:#8000FF;
+}
+.footer_bg{
+	background:#4D8CF4;
+}
+footer{
+	background-color:#4D8CF4;
+	text-align:center;
+	padding:10px;
+	
+}
+#footer p{
+	color:white;
+}
+
+#main_airticle_single{
+	margin-bottom:25px;
+	border-bottom:1px solid #797106;
+	overflow:hidden;
+}
+#imgp_wrap img{
+	width:75px;
+	height:75px;
+	background:#fff;
+	border:1px solid #ddd;
+	margin-right:10px;
+	float:left;
+}
+#imgp_wrap p{
+	float:left;
+	width:500px;
+	margin-top:0px;
+}	
+
+#imgp_wrap{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#main_sidebar{
+	border-bottom: 1px solid #7BA5DE;
+	margin-bottom:25px;
+	overflow:hidden;
+	padding-bottom:5px;
+	
+}
+#main_sidebar ul li{
+	padding-left:10px;
+}
+#main_sidebar h2{
+	margin-bottom:10px;
+}
+#social-area{
+	list-style-type:none;
+	padding:10px;
+	position:fixed;
+	right:0;
+	top:30%;
+	background:#fff;
+	border-radius:25px 0 0 25px;
+	
+	
+	
+}
+#social-area li{
+	float:none;
+	
+}
+#social-area li img{
+	width:64px;
+	height:64px;
+}
